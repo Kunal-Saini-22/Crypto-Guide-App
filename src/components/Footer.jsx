@@ -1,6 +1,6 @@
 import { Avatar, Box, Center, HStack, Img, Stack, Text, VStack , Flex } from "@chakra-ui/react";
 import React from "react";
-import  dp from "../assets/finalDp.png";
+// import  dp from "../assets/finalDp.png";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
@@ -36,7 +36,7 @@ const Footer = () => {
           <Img
           w={"80"}
           objectFit={"contain"}
-          src={dp}
+          // src={}
           borderRadius={"50%"}/>
 
           <Text>Kunal Saini</Text>
